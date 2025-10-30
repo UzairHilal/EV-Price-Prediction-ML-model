@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
+# from utils import wrangle
+import pickle
+import sys
+import path
 import joblib
 
 data_file = pd.read_csv("../data/raw/EV_cars.csv")
@@ -20,7 +24,6 @@ top_speed = st.number_input("Top Speed (km/h)",step=1.0)
 acceleration = st.number_input("Acceleration 0-100km/h (sec)",min_value=0.0, max_value=100.0, step=1.0)
 
 car_name = encdr.transform([car_name])
-print(car_name)
 
 button = st.button("Predict Price")
 if button:

@@ -16,3 +16,5 @@ The project is trained using **RandomForestRegressor** and includes a simple **S
 - **mean_absolute_error: 6719.062580645162**
 - **mean_square_error: 113437589.23394836**
 - **r2_score 0.8810625358851204**
+
+![alt text](img.PNG)
