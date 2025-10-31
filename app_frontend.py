@@ -26,7 +26,7 @@ acceleration = st.number_input("Acceleration 0-100km/h (sec)",min_value=0.0, max
 
 car_name = encdr.transform([car_name])
 
-button = st.button("Predict Price")
+button = st.button("Predict EV Price")
 if button:
   input_data = pd.DataFrame([[battery_capacity, car_name, efficiency, charging_speed, ev_range, top_speed, acceleration]], columns= ['Battery', 'Car_name', 'Efficiency', 'Fast_charge', 'Range', 'Top_speed', 'acceleration..0.100.'])
 
