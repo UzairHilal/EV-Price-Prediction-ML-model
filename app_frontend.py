@@ -31,4 +31,4 @@ if button:
   input_data = pd.DataFrame([[battery_capacity, car_name, efficiency, charging_speed, ev_range, top_speed, acceleration]], columns= ['Battery', 'Car_name', 'Efficiency', 'Fast_charge', 'Range', 'Top_speed', 'acceleration..0.100.'])
 
   price_prediction = model.predict(input_data)
-  st.write(f"Estimated EV Price: ${price_prediction * 1.16} ")
+  st.markdown(f"Estimated EV Price: **${price_prediction * 1.16}**")
