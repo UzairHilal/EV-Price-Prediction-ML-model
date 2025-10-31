@@ -1,4 +1,4 @@
-# EV Car Price Prediction
+# EV Car Price Prediction (Visit: https://evpriceprediction.streamlit.app)
 
 A beginner-friendly machine learning project that predicts the price of Electric Vehicles (EVs).
 
