@@ -32,5 +32,3 @@ if button:
 
   price_prediction = model.predict(input_data)
   st.write(f"Estimated EV Price: ${price_prediction * 1.16} ")
-  # 6545312.592
-  # 63608.48
