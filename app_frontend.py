@@ -6,11 +6,11 @@ import path
 import joblib
 
 BASE_DIR = os.path.dirname(__file__)
-data_file_path = os.path.join(BASE_DIR, "data/raw/EV_cars.csv")
+data_file_path = os.path.join(BASE_DIR, "Week 1/data/raw/EV_cars.csv")
 data_file = pd.read_csv(data_file_path)
 
-encdr = joblib.load(os.path.join(BASE_DIR, "src/encoder.pkl"))
-model = joblib.load(os.path.join(BASE_DIR, "models/ev_pricepred_model.pkl"))
+encdr = joblib.load(os.path.join(BASE_DIR, "Week 1/src/encoder.pkl"))
+model = joblib.load(os.path.join(BASE_DIR, "Week 2/models/ev_pricepred_model.pkl"))
 
 st.title("EV Price Prediction")
 st.write("Enter the details below to predict the price")
