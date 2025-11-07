@@ -7,7 +7,6 @@ import joblib
 
 BASE_DIR = os.path.dirname(__file__)
 data_file_path = os.path.join(BASE_DIR, "data/raw/EV_cars.csv")
-print(BASE_DIR)
 data_file = pd.read_csv(data_file_path)
 
 encdr = joblib.load(os.path.join(BASE_DIR, "src/encoder.pkl"))
