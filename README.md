@@ -4,6 +4,8 @@ A beginner-friendly machine learning project that predicts the price of Electric
 
 The project is trained using **RandomForestRegressor** and includes a simple **Streamlit frontend** where users can enter EV details to get price predictions.
 
+This project also includes a **chatbot** that guides the user through various aspects of electric vehicles, including battery types, charging options, range analysis, and model recommendations.
+
 ## Tech Stack
 
 - **Python**
